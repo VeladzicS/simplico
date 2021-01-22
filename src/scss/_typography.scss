@@ -1,0 +1,35 @@
+.sectionTitle {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  &__title {
+    font-size: 4.5rem;
+    font-weight: normal;
+    color: $color-primary;
+  }
+
+  &__underTitle {
+    width: 45%;
+    font-size: 2.3rem;
+    margin: 0 auto;
+  }
+}
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 1085px) {
+  .sectionTitle {
+    &__underTitle {
+      width: 65%;
+    }
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .sectionTitle {
+    &__underTitle {
+      width: 85%;
+    }
+  }
+}

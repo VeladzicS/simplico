@@ -1,0 +1,25 @@
+.scrolling-active {
+  background: #fff;
+  box-shadow: 0 4px 1rem rgba(0, 0, 0, 0.1);
+  height: 7rem !important;
+}
+
+.scrolling-active--logo {
+  margin-top: 3rem;
+  width: 7rem !important;
+  height: auto;
+  border: 1rem solid white;
+  background: white;
+  border-radius: 50%;
+}
+
+.scrolling-active--burger {
+  background: #191919 !important;
+
+  &::before {
+    background: #191919 !important;
+  }
+  &::after {
+    background: #191919 !important;
+  }
+}
